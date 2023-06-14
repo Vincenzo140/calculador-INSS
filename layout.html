@@ -1,0 +1,69 @@
+<body>
+    
+    <header>
+        <h1>Cálculo de Folha de pagamento</h1>
+    </header>
+    <div class="corpo">
+    <main>
+    <section id="calculo">
+    
+            <div class="formulario1">
+        <label style="color: white; font-size: larger; margin-right: 58%;" for="salário"> Sálario Bruto </label> <br>
+        <input style="width: 250px; height: 20px; border-color: black;" type="text" name="salario" id="salario"> <br>
+            </div>
+            <div class="formulario2">
+        <label style="color: white; font-size: larger;margin-right: 58%;" for="salário"> Dependentes </label> <br>
+        <input style="width: 250px; height: 20px; border-color: black;" type="text" name="dependentes" id="dependentes"> <br>
+            </div>
+            <div class="valetransporte1">
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label style="color: white; font-size: larger;" for="checkbox"> Vale Transporte</label> <br>
+            </div>
+           
+            <input type="button" value="Calcular" id="calcular" >
+
+    
+    </section>
+    <section id="resultado">
+        
+        <h1>Resultado:</h1>
+        <span id="resultado2"></span>
+        
+        
+        <!-- TABELA COMENTADA
+            <table>
+            <tr>
+                <td>Salário Bruto</td>
+                <td id="resultado7"></td>
+                    
+            </tr>
+            <tr>
+                <td id="inss">INSS</td>
+                <td>resultado</td>
+            </tr>
+            <tr>
+                <td id="irrf">IRRF</td>
+                <td>resultado</td>
+            </tr>
+            <tr>
+                <td id="vale">Vale Transporte</td>
+                <td>resultado</td>
+            </tr>
+            <tr>
+                <td id="salariol">Salário Líquido</td>
+                <td></td>
+            </tr>
+        </table>
+    -->
+
+        <button id="reset">Resetar</button>
+    </section>
+    </main>
+</div>
+    <footer>
+        Copyright &copy;
+    </footer>
+    
+</body>
+<script src="./node.js"></script>
+</html>

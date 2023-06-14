@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo Salário</title>
+    <link rel="stylesheet" href="./cssFinalizado.css">
+    
+</head>
+<body>    
+    <header>
+            <h1>Cálculo de Folha de pagamento</h1>
+    </header>
+
+    <div class="corpo">
+    
+    <main>
+            <section id="calculo">
+                <h2>Calcule abaixo o seu salário:</h2>
+    <div class="formularios">
+        <div class="formulario1">
+            <h3>Salario :</h3>
+            <label for="salario"></label>
+            <input type="text" name="salario" id="salario">
+        </div>
+        <div class="formulario2">
+            <h3>Dependentes :</h3>
+            <label for="dependentes"></label>
+            <input type="text" name="dependentes" id="dependentes">
+        </div>
+        <div class="valeTransporte">
+            <input type="checkbox" name="valetransporte" id="valetransporte">
+            <label for="valetransporte"><h3>- Vale transporte</h3></label>
+            </div>
+    </div>
+            <div class="botao">
+            <input type="button" value="Calcular" id="calcular">
+        </div>
+        </section>
+
+        <section id="resultado2">
+            <h1>Resultado :</h1>
+            <span id="resultado"></span>
+        
+        <!-- TABELA COMENTADA
+            <table>
+            <tr>
+                <td>Salário Bruto</td>
+                <td id="resultado7"></td>
+                    
+            </tr>
+            <tr>
+                <td id="inss">INSS</td>
+                <td>resultado</td>
+            </tr>
+            <tr>
+                <td id="irrf">IRRF</td>
+                <td>resultado</td>
+            </tr>
+            <tr>
+                <td id="vale">Vale Transporte</td>
+                <td>resultado</td>
+            </tr>
+            <tr>
+                <td id="salariol">Salário Líquido</td>
+                <td></td>
+            </tr>
+        </table>
+    -->
+
+       
+            </section>
+        </main>
+    </div>
+</body>
+<script src="./teste.js"></script>
+</html>
